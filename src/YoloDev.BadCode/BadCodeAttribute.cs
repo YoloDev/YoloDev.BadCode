@@ -7,9 +7,14 @@
     [AttributeUsage(AttributeTargets.All, AllowMultiple = true, Inherited = true)]
     public sealed class ಠ_ಠAttribute : Attribute
     { }
-    
+
     [Obsolete("What the actual")]
     [AttributeUsage(AttributeTargets.All, AllowMultiple = true, Inherited = true)]
     public sealed class ¬_¬Attribute : Attribute
+    { }
+
+    [Obsolete("Flip Tables!")]
+    [AttributeUsage(AttributeTargets.All, AllowMultiple = true, Inherited = true)]
+    public sealed class (╯°□°）╯︵ ┻━┻Attribute : Attribute
     { }
 }
